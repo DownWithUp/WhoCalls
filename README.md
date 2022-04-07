@@ -3,9 +3,10 @@ WhoCalls can query a directory of files, find the binaries, and search for a use
 This is an improved version of my old C WhoCalls program. The old C version can be found [here](https://github.com/DownWithUp/WhoCalls_C).
 
 ## Example Use
-WhoCalls.exe [Path To Query] [API Name]
-API Name: A valid Windows API function. eg: ExitProcess<br/>
-Path To Query: A valid path without the ending backslash. eg: C:\Users\Admin\Desktop
+WhoCalls.exe [Path To Query] [API Name] <br>
+API Name: A valid Windows API function. <br>
+Path To Query: A valid path to a directory containg the executable(s). <br>
+E.g. `whocalls C:\Windows\System32 ExitProcess`
 
 ## Other Features
 * No unsafe Rust 😊
